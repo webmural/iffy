@@ -48,7 +48,7 @@ nav a {
 }
 
 h1 {
-  font-family: fantasy;
+  font-family: sans-serif;
   font-weight: unset;
   margin: 0;
   margin-inline-end: 1em;
@@ -57,9 +57,11 @@ h1 {
 }
 
 p {
+  display: flex;
+  flex-flow: column;
   float: right;
-  font-family: cursive;
-  margin: 0;
+  font-family: sans-serif;
+  margin: 2em 0;
   padding: 1em;
 }
 
@@ -77,4 +79,8 @@ em {
     clear: both;
     writing-mode: sideways-rl;
   }
+}
+
+.shift {
+  margin-left: -1ch;
 }
